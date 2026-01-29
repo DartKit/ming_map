@@ -17,12 +17,16 @@ dependencies:
 #      ref: develop
 #  dio_log:
 #    path: /Users/mingo/allRepos/all_kit/dio_log/
+#  app_log:
+#    path: /Users/mingo/allRepos/all_kit/app_log/
   app_log:
-    path: /Users/mingo/allRepos/all_kit/app_log/
-
+    git:
+      url: https://github.com/DartKit/app_log.git
   app_kit:
-    path: /Users/mingo/allRepos/all_kit/app_kit/
-
+    git:
+      url: https://github.com/DartKit/app_kit.git
+#  app_kit:
+#    path: /Users/mingo/allRepos/all_kit/app_kit/
   get: 4.7.3
   flutter_screenutil: ^5.9.3
   permission_handler: 12.0.1

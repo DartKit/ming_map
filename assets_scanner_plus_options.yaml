@@ -1,0 +1,15 @@
+# The path where the generated file locate.
+# Note that the `path` should be sub-path of `lib/`.
+path: lib/generated
+
+# The class name of the generated file.
+className: AstMap
+
+# The file name of the generated file.
+fileName: assets.dart
+
+# Indicate the comments need to be generated or not.
+# Note that the you can't preview the images assets if `ignoreComment` is `true`.
+ignoreComment: false
+
+ignoreForFile: false
